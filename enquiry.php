@@ -26,7 +26,19 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-
+    <style>
+        
+        .success
+        {
+            text-align:center;
+            color:green;
+        }
+        .error
+        {
+            text-align:center;
+            color:red;
+        }
+    </style>
 
 </head>
 <body>
@@ -181,10 +193,14 @@
                                 <p>
                                     <button type="submit" name="enquery" class="button full fill rectangle">Send Message</button>
                                 </p>
+                                
+                                
                                 </div>
-                                <div class="formMessages"> 
+                                 <div id="form-messages"> 
                                 <div class="success"></div>
+                                 <div class="error"></div>
                                 </div>
+                               
                             </div>
 						
                          </form>

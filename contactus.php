@@ -46,7 +46,19 @@ fbq('track', 'PageView');
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 
-
+ <style>
+        
+        .success
+        {
+            text-align:center;
+            color:green;
+        }
+        .error
+        {
+            text-align:center;
+            color:red;
+        }
+    </style>
 
 </head>
 <body>
@@ -245,6 +257,10 @@ fbq('track', 'PageView');
 						<div class="row text-center cont-form-padding">
 						  	<button type="reset" name="reset" class="btn fill">Clear</button>
 						    <button type="submit" class="btn fill submit">Submit</button>
+						      <div id="form-messages"> 
+                                <div class="success"></div>
+                                 <div class="error"></div>
+                                </div>
 						</div>
 					</form>
 					<div class="text-left">
