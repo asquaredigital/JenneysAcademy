@@ -38,6 +38,12 @@
             text-align:center;
             color:red;
         }
+
+@media screen and (max-width: 760px) {
+    #logoid { 
+        visibility: hidden;
+    }
+}
     </style>
 
 </head>
@@ -92,14 +98,14 @@
                             </nav>  
 						</div>
                     <div class="col-sm-2">
-                        <div class="header-wrapper">
+                        <div class="header-wrapper" id="logoid">
        <a href="/" id="logo" title="Jenneys" class="logo-image" data-bg-image="image/logo-jennys.png" style="background-image: url(image/logo-jennys.png);"></a>
                         </div>
 						<!--mobile-->
 						 <div class="header-wrapper visible-xs">
                           <div class="row mobile-logomargin">
                            <div class="col-xs-9">
-                               <a href="/" id="logo" title="Jennys" class="logo-image" data-bg-image="image/Mobile-logo@.png" style="background-image: url(image/Mobile-logo_.png);"></a>
+                           <a href="/" id="logo" title="Jennys" class="logo-image" data-bg-image="image/Mobile-logo.png" style="background-image: url(image/Mobile-logo.png);"></a> 
                           </div>
                           <div class="col-xs-12 text-center">
                               <button type="button" class="menu-sys-margin fill navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
