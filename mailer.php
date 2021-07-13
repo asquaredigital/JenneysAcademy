@@ -3,6 +3,11 @@
     // http://blog.teamtreehouse.com/create-ajax-contact-form
     // Added input sanitizing to prevent injection
 
+
+   
+
+
+	
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
@@ -49,7 +54,9 @@
         //$email_headers .= "Return-Path: $retrun";
 
         // Send the email.
-        if (mail($recipient, $subject, $email_content, $email_headers)) {
+       // if (mail($recipient, $subject, $email_content, $email_headers)) {
+                if (mail($recipient, $subject, $email_content, $email_headers)) {
+
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thank You! Your message has been sent.";

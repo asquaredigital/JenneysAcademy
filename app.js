@@ -17,12 +17,18 @@ $(function() {
 		// Submit the form using AJAX.
 		$.ajax({
 			type: 'POST',
-			url: $(form).attr('action'),
+		    url: $(form).attr('action'),
 			data: formData
 		})
 		.done(function(response) {
+<<<<<<< Updated upstream
 
 			console.log(response);
+=======
+		    			
+		    console.log(response);
+
+>>>>>>> Stashed changes
 			// Make sure that the formMessages div has the 'success' class.
 			$(formMessages).removeClass('error');
 			$(formMessages).addClass('success');

@@ -38,12 +38,15 @@
             text-align:center;
             color:red;
         }
+<<<<<<< Updated upstream
 
 @media screen and (max-width: 760px) {
     #logoid { 
         visibility: hidden;
     }
 }
+=======
+>>>>>>> Stashed changes
     </style>
 
 </head>

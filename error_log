@@ -1,0 +1,1 @@
+[30-Jun-2021 14:45:15 America/Boise] PHP Warning:  mail() expects at least 3 parameters, 0 given in /home2/asquarg1/public_html/jenneysacademy/mailer.php on line 58

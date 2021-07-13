@@ -58,6 +58,7 @@ fbq('track', 'PageView');
             text-align:center;
             color:red;
         }
+<<<<<<< Updated upstream
         @media screen and (max-width: 760px) {
     #logoid { 
         visibility: hidden;
@@ -65,6 +66,9 @@ fbq('track', 'PageView');
 }
     </style>
      
+=======
+    </style>
+>>>>>>> Stashed changes
 
 </head>
 <body>
