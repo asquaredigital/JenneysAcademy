@@ -38,15 +38,12 @@
             text-align:center;
             color:red;
         }
-<<<<<<< Updated upstream
 
 @media screen and (max-width: 760px) {
     #logoid { 
         visibility: hidden;
     }
 }
-=======
->>>>>>> Stashed changes
     </style>
 
 </head>
@@ -62,7 +59,7 @@
 					   <li><i class="fas fa-globe change-color font-i-top"></i><a href="index.html" class="i-padding change-color">www.jenneysacademy.com</a></li>
 					  </ul>
 					  <ul class="right">
-					  <li><i class="fas fa-phone-volume change-color font-i-top"></i><a href="index.html" class="i-padding change-color">+91 9791229999</a></li>
+					  <li><i class="fas fa-phone-volume change-color font-i-top"></i><a href="index.html" class="i-padding change-color">+91 9791229999, 9940711444<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0431-2690920 / 0431-2690921</a></li>
 					   <li><i class="fas fa-envelope change-color font-i-top"></i><a href="index.html" class="i-padding change-color">jenneysacademy@gmail.com</a></li>
 					  </ul>
 		         </div>
@@ -131,7 +128,7 @@
               </li>
               <li><a href="infrastructure.html">Gallery</a></li>
 			   <li><a href="recruiter.html">Our Recruiters</a></li>
-               <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Under Update">Alumni</a></li>
+               <li><a href="Alumni.php" data-toggle="tooltip" data-placement="bottom" title="Under Update">Alumni</a></li>
               <li><a href="contactus.php">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -146,7 +143,7 @@
 								    <li><a href="recruiter.html">Our Recruiters</a>
 									</li>
 									<li>
-                                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Under Update">Alumni</a>
+                                        <a href="Alumni.php" data-toggle="tooltip" data-placement="bottom" title="Under Update">Alumni</a>
                                     </li>
                                     <li><a href="contactus.php">
 									Contact</a></li>

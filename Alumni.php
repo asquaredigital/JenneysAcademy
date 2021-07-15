@@ -148,7 +148,7 @@ fbq('track', 'PageView');
               </li>
               <li><a href="infrastructure.html">Gallery</a></li>
 			   <li><a href="recruiter.html">Our Recruiters</a></li>
-               <li><a href="Alumni.php" data-toggle="tooltip" data-placement="bottom" title="Under Update">Alumni</a></li>
+               <li><a href="Alumni.html" data-toggle="tooltip" data-placement="bottom" title="Under Update">Alumni</a></li>
               <li><a href="contactus.php">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -185,89 +185,120 @@ fbq('track', 'PageView');
 	<section class="cont-bgimage">
 	        <div class="container">
 	           <div class="row">
-			     <div class="col-sm-4  cont-top-margin cont-bottom-margin">
-                        <div class="address-box text-light cont-adrss-padding">
-                            <h4>Contact</h4>
-                            <table>
-                                <tbody><tr>
-                                    <td class="entry-icon">
-									<i class="fas fa-map-marker cont-ifont-size" style="width: 18px;"></i>
-								</td>
-                                    <td>Manigandam Road, Ramjee Nagar, Trichy - 620 009.</td>
-                                </tr>
-                                <tr>
-                                    <td class="entry-icon">
-                                      <i class="fas fa-phone-volume cont-ifont-size" style="width: 24px;"></i></td>
-                                    <td>+91 9791229999, 9940711444, 0431-2690920 / 0431-2690921</td>
-                                </tr>
-                                <tr>
-                                    <td class="entry-icon"><i class="fas fa-envelope cont-ifont-size" style="width: 24px;"></i></td>
-                                    <td>jenneysacademy@gmail.com</td>
-                                </tr>
-                            </tbody></table>
-                        </div>
-						 <p class="text-center top-margin ">
-                                        <a href="enquiry.php" class="button small go">Enquire Now <i class="fa fa-arrow-right"></i></a>
-                                    </p>
-					</div>
-					<!--online Application-->
-					<div class="col-sm-8 cont-top-margin">
-					<div class="heading text-center course-headtop">
-						<h3>Jenneys Academy</h3>
-						<h4>Contact Us</h4>
-						<div class="line img-icon i-margin-bottom course-headbottom"><i class="fas fa-book font-i"></i>
-                        </div>
-					</div>
-                    <form action="mailer.php" id="ajax-contact" method="post" class="footer_contact_form" >
-								  <div class="row">
-                                <div class="col-sm-6">
-                                    <p><input type="text" name="name" id="name" placeholder=" Name" required></p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <p><input type="email" name="email" id="email" placeholder="  E-mail Id" required></p>
-                                </div>
-                                <div class="col-sm-12">
-                                    <p><input type="text" name="contact" id="contact" placeholder="Mobile No" ></p>
-                                </div>
-								<div class="col-sm-12">
-                                    <p><input type="text" name="address" id="address" placeholder="Address" required></p>
-                                </div>
-								<div class="col-sm-12">
-								<p><select class="form-control" name="course" id="course">
-										  <option value="">Courses</option>
-										  <option value="B.Sc. Catering &amp; Hotel Administration">B.Sc. Catering & Hotel Administration</option>
-										  <option value="Diploma in Catering and Hotel Administration (DCHA)">Diploma in Catering and Hotel Administration (DCHA)</option>
-										  <option value="Craft Course in Food Production">Craft Course in Food Production</option>
-										  <option value="Craft Course in Bakery &amp; Confectionery">Craft Course in Bakery & Confectionery</option>
-										  <option value="Craft Course in Food &amp; Beverage Service">Craft Course in Food & Beverage Service</option>
-										  <option value="Craft Course in Front Office">Craft Course in Front Office</option>  
-										  <option value="Craft Course in Housekeeping">Craft Course in Housekeeping</option> 
-										  <option value="Hostess programme for Home Makers">Hostess programme for Home Makers</option>
-										  <option value="Bar Flair programme">Bar Flair programme for hotel Management students and Hotel staff</option>
-								</select></p>
-                                </div>
-                                <div class="col-sm-12">
-                                <p> <textarea name="message" id="message" autocapitalize="none" placeholder=" Message"></textarea> </p>
-                                <p>
-                                    <button type="submit" name="enquery" class="button full fill rectangle">Send Message</button>
-                                </p>
-                                
-                                
-                                </div>
-                                 <div id="form-messages"> 
-                                <div class="success"></div>
-                                 <div class="error"></div>
-                                </div>
-                               
-                            </div>
-						
-                         </form>
-				
-				</div>
-					<!--map-->
-					<div class="col-sm-12 cont-top-margin cont-bottom-margin">
-					 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5511553928013!2d78.6312813148007!3d10.769033792326573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa5fe369e41127%3A0xf339e581eedfd59!2sJenneys+Academy+of+Hotel+Management!5e0!3m2!1sen!2sin!4v1522236955217" width="100%" height="470" frameborder="0" allowfullscreen></iframe>
-					</div>
+               <div class="row contact-middle-sec-padding mobile-almuni-padding">
+
+<h1 class="text-center">Welcome Back Our Students</h1>
+
+<div class="col-sm-8 col-sm-offset-2 cont-top-margin cont-bottom-margin ">
+
+
+
+   <form method='post' action="mailer3.php" id="ajax-contact" enctype='multipart/form-data'>
+
+                   <div class='row'>
+
+                       <div class='col-sm-6'>
+
+                           <p><input type='text' name='name' id='name' placeholder=' Name' required='required'></p>
+
+                       </div>
+
+                       <div class='col-sm-6'>
+
+                           <p><input type='text' name='father' id='father' placeholder="Father's Name" required='required'></p>
+
+                       </div>
+
+                       <div class='col-sm-6'>
+
+                           <p><input type='email' name='email' id='email' placeholder='  E-mail Id' required='required'></p>
+
+                       </div>
+
+                       <div class='col-sm-6'>
+
+                           <p><input type='text' name='contact' id='contact' placeholder='Mobile No' required='required'></p>
+
+                       </div>
+
+                       <div class='col-sm-12'>
+
+                          <p><select class='form-control' name='year' id='year' required='required'>
+                                <option selected value=''>--Select Year of Passing--</option>
+
+                             <option value='1996'>1996</option>
+                             <option value='1997'>1997</option>
+                             <option value='1998'>1998</option>
+                             <option value='1999'>1999</option>
+                             <option value='2000'>2000</option>
+                             <option value='2001'>2001</option>
+                             <option value='2002'>2002</option>
+                             <option value='2003'>2003</option>
+                             <option value='2004'>2004</option>
+                             <option value='2005'>2005</option>
+                             <option value='2006'>2006</option>
+                             <option value='2007'>2007</option>
+                             <option value='2008'>2008</option>
+                             <option value='2009'>2009</option>
+                             <option value='2010'>2010</option>
+                             <option value='2011'>2011</option>
+                             <option value='2012'>2012</option>
+                             <option value='2013'>2013</option>
+                             <option value='2014'>2014</option>
+                             <option value='2015'>2015</option>
+                             <option value='2016'>2016</option>
+                             <option value='2017'>2017</option>
+                             <option value='2018'>2018</option>
+                             <option value='2019'>2019</option>
+                             <option value='2020'>2020</option>
+
+                           </select>
+                          </p>
+
+                       </div>
+
+                       <div class='col-sm-12'>
+
+                          <p><input type='text' name='position' id='position' placeholder='Current Position' required='required'></p>
+
+                       </div>
+
+                       <div class='col-sm-12'>
+
+                           <p><input type='text' name='address' id='address' placeholder='Address' required='required'></p>
+
+                       </div>
+
+                   <!--	<div class='col-sm-12'>
+
+                           <p> Upload Recent Photo <br><br><input style='line-height:0px; border:none;' type='file' name='attachFile'></p>
+
+                       </div> -->
+
+                       <div class='col-sm-12 btn-holder section1-left-padding-butn'>
+
+                             <button type='submit' class='btn fill submit' name='alumni'>Submit</button>
+
+                      </div>
+                      <div id="form-messages"> 
+                       <div class="success"></div>
+                        <div class="error"></div>
+                       </div>
+
+
+
+
+                   </div>
+
+               </form>
+
+
+</div>
+
+
+
+</div>
+
 				 </div>
               </div>
 	</section>
@@ -333,7 +364,7 @@ fbq('track', 'PageView');
     <!-- Magnific-popup -->
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="app3.js"></script>
 
 	<script type="text/javascript">
 	    //$( function() {

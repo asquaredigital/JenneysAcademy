@@ -185,89 +185,79 @@ fbq('track', 'PageView');
 	<section class="cont-bgimage">
 	        <div class="container">
 	           <div class="row">
-			     <div class="col-sm-4  cont-top-margin cont-bottom-margin">
-                        <div class="address-box text-light cont-adrss-padding">
-                            <h4>Contact</h4>
-                            <table>
-                                <tbody><tr>
-                                    <td class="entry-icon">
-									<i class="fas fa-map-marker cont-ifont-size" style="width: 18px;"></i>
-								</td>
-                                    <td>Manigandam Road, Ramjee Nagar, Trichy - 620 009.</td>
-                                </tr>
-                                <tr>
-                                    <td class="entry-icon">
-                                      <i class="fas fa-phone-volume cont-ifont-size" style="width: 24px;"></i></td>
-                                    <td>+91 9791229999, 9940711444, 0431-2690920 / 0431-2690921</td>
-                                </tr>
-                                <tr>
-                                    <td class="entry-icon"><i class="fas fa-envelope cont-ifont-size" style="width: 24px;"></i></td>
-                                    <td>jenneysacademy@gmail.com</td>
-                                </tr>
-                            </tbody></table>
-                        </div>
-						 <p class="text-center top-margin ">
-                                        <a href="enquiry.php" class="button small go">Enquire Now <i class="fa fa-arrow-right"></i></a>
-                                    </p>
-					</div>
+			   
 					<!--online Application-->
-					<div class="col-sm-8 cont-top-margin">
+					<div class="col-sm-8 cont-top-margin" style="margin-left:100px">
 					<div class="heading text-center course-headtop">
 						<h3>Jenneys Academy</h3>
-						<h4>Contact Us</h4>
+						<h4>Online Application</h4>
 						<div class="line img-icon i-margin-bottom course-headbottom"><i class="fas fa-book font-i"></i>
                         </div>
 					</div>
-                    <form action="mailer.php" id="ajax-contact" method="post" class="footer_contact_form" >
-								  <div class="row">
-                                <div class="col-sm-6">
-                                    <p><input type="text" name="name" id="name" placeholder=" Name" required></p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <p><input type="email" name="email" id="email" placeholder="  E-mail Id" required></p>
-                                </div>
-                                <div class="col-sm-12">
-                                    <p><input type="text" name="contact" id="contact" placeholder="Mobile No" ></p>
-                                </div>
-								<div class="col-sm-12">
-                                    <p><input type="text" name="address" id="address" placeholder="Address" required></p>
-                                </div>
-								<div class="col-sm-12">
-								<p><select class="form-control" name="course" id="course">
-										  <option value="">Courses</option>
-										  <option value="B.Sc. Catering &amp; Hotel Administration">B.Sc. Catering & Hotel Administration</option>
-										  <option value="Diploma in Catering and Hotel Administration (DCHA)">Diploma in Catering and Hotel Administration (DCHA)</option>
-										  <option value="Craft Course in Food Production">Craft Course in Food Production</option>
-										  <option value="Craft Course in Bakery &amp; Confectionery">Craft Course in Bakery & Confectionery</option>
-										  <option value="Craft Course in Food &amp; Beverage Service">Craft Course in Food & Beverage Service</option>
-										  <option value="Craft Course in Front Office">Craft Course in Front Office</option>  
-										  <option value="Craft Course in Housekeeping">Craft Course in Housekeeping</option> 
-										  <option value="Hostess programme for Home Makers">Hostess programme for Home Makers</option>
-										  <option value="Bar Flair programme">Bar Flair programme for hotel Management students and Hotel staff</option>
-								</select></p>
-                                </div>
-                                <div class="col-sm-12">
-                                <p> <textarea name="message" id="message" autocapitalize="none" placeholder=" Message"></textarea> </p>
-                                <p>
-                                    <button type="submit" name="enquery" class="button full fill rectangle">Send Message</button>
-                                </p>
-                                
-                                
-                                </div>
-                                 <div id="form-messages"> 
+					<form action="mailer2.php" id="ajax-contact" method="post" class="footer_contact_form" >
+
+					    Name :<input type="text" name="st_name" id="st_name" placeholder="Student Name" required="required"><br>
+						Date of Birth :<input type="text" name="st_dob" id="datepicker" placeholder="DD/MM/YYYY" required="required"><br>
+						Father’s Name :<input type="text" name="fr_name" id="fr_name" placeholder="Father Name"><br>
+      <!--                  Father’s Occupation :<input type="text" name="fr_occupation" placeholder="Father Occupation"><br>-->
+						<!--Religion :<input type="text" placeholder="Religion" name="st_religion"><br>-->
+                        Address:<textarea name="st_address" id="st_address" placeholder="Address for communication"></textarea><br>
+                        Location: <input type="text" name="location" id="location" placeholder="Location"> 
+                        PIN Code: <input type="tel" name="pincode" id="pincode" placeholder="PIN Code"> 
+						<!--Telephone No: <input type="tel" name="telephone" placeholder="Contact Telephone Number" required="required" >-->
+                        Mobile No: <input type="tel" name="mobile_no" id="mobile_no" placeholder="Contact Mobile Number" required="required">
+						Email: <input type="email" name="mail_id" id="mail_id" placeholder="Contact Mail Id" required="required"><br>
+						Details of Examination Passed
+						<br>
+						<label>
+							<input type="radio" name="optionsRadios" class="st_edu" id="optionsRadios1" value="SSLC" checked>S.S.L.C 
+						</label>
+						<label>
+						    <input type="radio" name="optionsRadios" class="st_edu" id="optionsRadios2" value="HSLC">H.S.L.C 
+						</label>
+						<label>
+						    <input type="radio"  name="optionsRadios" class="st_edu" id="optionsRadios3" value="Other">Other 
+					    </label><br>
+                        <!--Educational Qualification:<input type="text" name="st_edu_other" placeholder="If other Please mention" ><br>-->
+						Year of Passing:<input type="text" name="passing_year" id="passing_year" placeholder="Passed Year" required="required"><br>
+						Marks:<input type="text" name="marks_obt" id="marks_obt" placeholder="Marks Obtained" required="required"><br>
+						Percentage Obtained:<input type="text" id="percentage" name="percentage" placeholder="Percentage Obtained" required="required"><br>
+						Course Interested:<input type="text" name="course_interested" id="course_interested" placeholder="Course Interested" required="required"><br>
+						<div class="text-center">
+						    <h4>Joint Declaration</h4>
+							<p><input type="checkbox" name="terms" id="terms">  We declare that the particulars given above are true to our knowledge and we assure you that we will abide by the rules and regulations of the Academy.</p>
+						</div><br>
+					 <!--   <p class="text-left">date:</p><br><br>-->
+						<!--<div class="row"> -->
+						<!--    <input type="file" class="col-sm-6 col-xs-6 btn fill cont-btn-left" name="attachFile" required="required" />-->
+						<!--	<input type="file" class="col-sm-4 col-xs-6 btn fill cont-btn-right" name="attachFile2" required="required" />-->
+						<!--</div>-->
+					 <!-- 	<div class="row">-->
+						<!--	<p class="text-left col-sm-6 col-xs-6">Signature of the Parent/Guardian</p>-->
+						<!--	<p class="text-right col-sm-6 col-xs-6"> Signature of the Applicant</p>-->
+					 <!-- 	</div>-->
+						<div class="row text-center cont-form-padding">
+						  	<button type="reset" name="reset" class="btn fill">Clear</button>
+						    <button type="submit" class="btn fill submit">Submit</button>
+						      <div id="form-messages"> 
                                 <div class="success"></div>
                                  <div class="error"></div>
                                 </div>
-                               
-                            </div>
-						
-                         </form>
-				
+						</div>
+					</form>
+					<div class="text-left">
+					  	<u>Note:Bring the following documents at the time of admission.</u>
+					    <ol>
+					     	<li>Print out of Online Application</li>
+						 	<li>Provisional/Original Mark sheet</li>
+						 	<li>Transfer Certificate Original</li>
+						 	<li>Community Certificate Original</li>
+						 	<li>Three Passport size photos taken recently</li>
+					    </ol>
+					</div>
 				</div>
 					<!--map-->
-					<div class="col-sm-12 cont-top-margin cont-bottom-margin">
-					 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5511553928013!2d78.6312813148007!3d10.769033792326573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa5fe369e41127%3A0xf339e581eedfd59!2sJenneys+Academy+of+Hotel+Management!5e0!3m2!1sen!2sin!4v1522236955217" width="100%" height="470" frameborder="0" allowfullscreen></iframe>
-					</div>
+					
 				 </div>
               </div>
 	</section>
@@ -333,7 +323,7 @@ fbq('track', 'PageView');
     <!-- Magnific-popup -->
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="app2.js"></script>
 
 	<script type="text/javascript">
 	    //$( function() {
